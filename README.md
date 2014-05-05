@@ -1,6 +1,26 @@
 # enjoyreading-ng
 
-This is a maintenance fork of the Enjoy Reading extension for Firefox.
+Enjoy Reading NG is a maintenance fork of the Enjoy Reading extension by
+jblanche for Firefox.
+
+It can be invoked both via a click in the icon or via a keyboard
+shortcut ("control-alt-r").
+
+Enjoy Reading NG is heavily based on the old Readability open
+source bookmarklet/extension, which provides a clean way to read
+the content of some pages, without visual clutter.
+
+Differently from the current Readability extension, this
+extension works entirely on the client-side, with no information
+being sent to any server.
+
+It is current in a preliminary state of being "cleaned up", with
+many improvements planned. It is Free (Open Source) Software
+available under the Apache Public License 2.0 (APL 2.0) and it is
+hoped to be continuously developed with improvements from the
+community at:  https://github.com/rbrito/enjoyreading-ng
+
+## History
 
 The original version of Enjoy Reading was written by Jonathan Blanchet
 <https://github.com/jblanche> and it was, in turn, a modification of the
@@ -20,6 +40,9 @@ changing a lot with their new versioning scheme).
 
 You can find the original Enjoy Reading extension at
 <https://addons.mozilla.org/en-us/firefox/addon/enjoy-reading/>.
+
+
+# Original comments from Remigiusz Modrzejewski
 
 ## User review
 
