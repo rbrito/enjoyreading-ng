@@ -1,6 +1,6 @@
 {
     "author": "lRem",
-    "contributors": [],
+    "contributors": ["lRem", "jblanche"],
     "dependencies": [
         "api-utils",
         "addon-kit"
