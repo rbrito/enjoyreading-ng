@@ -1,10 +1,25 @@
-# enjoyreading2
+# enjoyreading-ng
 
-Maintenance fork of the Enjoy Reading addon by jblanche.
-This, unlike the upstream, works with current Firefox versions.
+This is a maintenance fork of the Enjoy Reading extension for Firefox.
 
+The original version of Enjoy Reading was written by Jonathan Blanchet
+<https://github.com/jblanche> and it was, in turn, a modification of the
+Readability extension for Firefox, by Arc90 Labs.
 
-The upstream: <https://addons.mozilla.org/en-us/firefox/addon/enjoy-reading/>
+It was imported into a git repository by Remigiusz Modrzejewski
+<https://github.com/lrem> and is currently kept by Rogério Brito
+<https://github.com/rbrito>.
+
+## Why this fork?
+
+Unfortunately, the original Enjoy Reading extension wasn't updated to be
+declared compatible with current Firefox versions (and Firefox has been
+changing a lot with their new versioning scheme).
+
+## Where is the original Enjoy Reading?
+
+You can find the original Enjoy Reading extension at
+<https://addons.mozilla.org/en-us/firefox/addon/enjoy-reading/>.
 
 ## User review
 
