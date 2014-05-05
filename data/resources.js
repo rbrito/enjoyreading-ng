@@ -9,7 +9,7 @@ var listenForKeystroke = function(){
       window.location.reload();
     }
   });
-}
+};
 
 
 /* Size */
