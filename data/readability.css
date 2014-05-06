@@ -1,4 +1,4 @@
-@charset utf-8;
+@charset "utf-8";
 
 /* Document */
 body
@@ -74,7 +74,6 @@ body
 	clear:both;
 	display:block;
 	font-size:.85em;
-	filter:alpha(opacity=20);
 	opacity:.20;
 	text-align:center;
 }
