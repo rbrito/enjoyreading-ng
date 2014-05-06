@@ -456,7 +456,7 @@ table,tr,td
 	background-color:rgba(120,120,120,0.75);
 	border-radius:12px;
 	z-index:100;
-	-moz-transition:opacity ease-in .3s;
+	transition:opacity ease-in .3s;
 }
 
 #readTools:hover,#readTools:focus,#readTools.hover
