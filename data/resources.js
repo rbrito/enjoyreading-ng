@@ -30,8 +30,8 @@ var reduceSize = function(){
   var currentSize = getSize();
   var index = fontsizeClasses.indexOf(currentSize);
   if(index > 0){
-    oldClass = fontsizeClasses[index];
-    newClass = fontsizeClasses[index-1];
+    var oldClass = fontsizeClasses[index];
+    var newClass = fontsizeClasses[index-1];
     document.getElementById('readInner').classList.remove(oldClass);
     document.getElementById('readInner').classList.add(newClass);
     self.port.emit('style', {rule: "size", value: newClass});
