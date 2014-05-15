@@ -348,7 +348,7 @@ a.rdbTK-powered span
 /* Mimic the original apertura style with same colors, but with Free fonts */
 .style-dark
 {
-	font-family:Lato, "Open Sans", sans-serif;
+	font-family:Lato, "DejaVu Sans", "Open Sans", sans-serif;
 	background:#2d2828;
 	color:#eae8e9;
 }
