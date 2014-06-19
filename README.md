@@ -41,6 +41,25 @@ changing a lot with their new versioning scheme).
 You can find the original Enjoy Reading extension at
 <https://addons.mozilla.org/en-us/firefox/addon/enjoy-reading/>.
 
+## Building the extension
+
+To build the extension, simply grab the addon SDK from Mozilla and use the
+command `cfx xpi` to create your packaged extension (adapt the version
+accordingly to what you download and to where your checkout of the git repo
+is):
+
+    cd /tmp
+    wget https://ftp.mozilla.org/pub/mozilla.org/labs/jetpack/jetpack-sdk-latest.tar.gz
+    tar axvf addon-sdk-1.16.tar.gz
+    cd addon-sdk-1.16
+    . bin/activate
+    cd /tmp/enjoyreading-ng/
+    cfx xpi
+
+You can then install the extension by calling Firefox/Iceweasel with
+something as simple as:
+
+    firefox enjoyreading-ng.xpi
 
 # Original comments from Remigiusz Modrzejewski
 
