@@ -1,11 +1,11 @@
 {
     "author": "Rogério Theodoro de Brito",
-    "contributors": ["lRem", "jblanche"],
+    "contributors": ["Remigiusz Modrzejewski", "Jonathan Blanchet"],
     "dependencies": [
         "api-utils",
         "addon-kit"
     ],
-    "description": "Firefox addon for the improved readability of web pages. Based on the work of jblanche, which was, in turn, based on the work of Arc90's Labs.",
+    "description": "Firefox addon for the improved readability of web pages. Based on the work of Jonathan Blanchet, which was, in turn, based on the work of Arc90's Labs.",
     "icon": "data/figures/logo-32.png",
     "id": "jid0-R9xPsoETsjTKZQNYZbycVxlHj4x",
     "lib": "lib",
