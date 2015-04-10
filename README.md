@@ -22,7 +22,7 @@ community at:  https://github.com/rbrito/enjoyreading-ng
 
 ## Install
 
-[Follow these instructions to install this addon in Firefox](./releases/latest)
+[Follow these instructions to install this addon in Firefox](../releases/latest)
 
 ## History
 
