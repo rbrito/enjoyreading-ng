@@ -20,6 +20,10 @@ available under the Apache Public License 2.0 (APL 2.0) and it is
 hoped to be continuously developed with improvements from the
 community at:  https://github.com/rbrito/enjoyreading-ng
 
+## Install
+
+You can find the latest version of Enjoy Reading NG ready to [download on the releases page](../../releases/latest)
+
 ## History
 
 The original version of Enjoy Reading was written by Jonathan Blanchet
@@ -49,11 +53,13 @@ accordingly to what you download and to where your checkout of the git repo
 is):
 
     cd /tmp
+    wget https://github.com/rbrito/enjoyreading-ng.git
+    unzip master.zip
     wget https://ftp.mozilla.org/pub/mozilla.org/labs/jetpack/jetpack-sdk-latest.tar.gz
-    tar axvf addon-sdk-1.16.tar.gz
-    cd addon-sdk-1.16
+    tar axvf addon-sdk-1.17.tar.gz
+    cd addon-sdk-1.17
     . bin/activate
-    cd /tmp/enjoyreading-ng/
+    cd /tmp/enjoyreading-ng/src
     cfx xpi
 
 You can then install the extension by calling Firefox/Iceweasel with
