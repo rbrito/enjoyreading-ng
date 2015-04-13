@@ -22,7 +22,11 @@ community at:  https://github.com/rbrito/enjoyreading-ng
 
 ## Install
 
-You can find the latest version of Enjoy Reading NG ready to [download on the releases page](../../releases/latest)
+You can find the latest version of Enjoy Reading NG ready to
+[download on the releases page](../../releases/latest). To actually install
+the plugin, which is an `xpi` file, just use:
+
+    firefox enjoyreading-ng.xpi
 
 ## History
 
