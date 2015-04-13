@@ -53,8 +53,7 @@ accordingly to what you download and to where your checkout of the git repo
 is):
 
     cd /tmp
-    wget https://github.com/rbrito/enjoyreading-ng.git
-    unzip master.zip
+    git clone https://github.com/rbrito/enjoyreading-ng.git
     wget https://ftp.mozilla.org/pub/mozilla.org/labs/jetpack/jetpack-sdk-latest.tar.gz
     tar axvf addon-sdk-1.17.tar.gz
     cd addon-sdk-1.17
