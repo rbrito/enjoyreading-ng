@@ -59,7 +59,7 @@ is):
     tar axvf addon-sdk-1.17.tar.gz
     cd addon-sdk-1.17
     . bin/activate
-    cd /tmp/enjoyreading-ng/src
+    cd /tmp/enjoyreading-ng
     cfx xpi
 
 You can then install the extension by calling Firefox/Iceweasel with
